@@ -73,15 +73,6 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
-### 5. Inicializar la Base de Datos
-
-El proyecto utiliza SQLite por defecto para facilitar el desarrollo. Ejecuta las migraciones para crear la estructura de tablas:
-
-```bash
-python -m alembic upgrade head
-```
-
 ## ▶️ Ejecución
 
 Para iniciar el servidor de desarrollo con recarga automática (hot-reload):
@@ -140,10 +131,3 @@ API_PYTHON/
 └── README.md             # Documentación del proyecto
 ```
 
-## 📄 Licencia
-
-Este proyecto está distribuido bajo la licencia **MIT**. Eres libre de usarlo, modificarlo y distribuirlo.
-
----
-
-**Desarrollado con ❤️ y Python.**
