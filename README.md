@@ -55,8 +55,6 @@ cd supermercado-api
 
 ### 3. Configurar el entorno virtual
 
-Es buena práctica aislar las dependencias del proyecto.
-
 ```bash
 # Crear entorno virtual
 python -m venv venv
